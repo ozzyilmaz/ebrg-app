@@ -1,0 +1,2 @@
+{"cli":{"version":">= 16.0.0","appVersionSource":"local"},
+ "build":{"production":{"credentialsSource":"local","ios":{"resourceClass":"default"}},"apk":{"android":{"buildType":"apk"},"credentialsSource":"remote"}}}

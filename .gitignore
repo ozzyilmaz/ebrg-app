@@ -1,0 +1,6 @@
+.gizli/
+credentials.json
+node_modules/
+.expo/
+ios/
+android/

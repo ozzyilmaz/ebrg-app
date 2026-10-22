@@ -1,0 +1,4 @@
+{"expo":{"name":"EbrG","slug":"ebrg","version":"1.0.0","orientation":"landscape","icon":"./assets/icon.png","userInterfaceStyle":"dark","backgroundColor":"#0b0e13",
+ "ios":{"bundleIdentifier":"com.appfellas.ebrg","supportsTablet":true,"requireFullScreen":true,"buildNumber":"1","infoPlist":{"CFBundleDevelopmentRegion":"tr","ITSAppUsesNonExemptEncryption":false,"UIStatusBarHidden":true,"UIViewControllerBasedStatusBarAppearance":false}},
+ "android":{"package":"com.appfellas.ebrg","versionCode":1,"adaptiveIcon":{"backgroundColor":"#0b0e13","foregroundImage":"./assets/adaptive.png"},"blockedPermissions":["android.permission.RECORD_AUDIO"]},
+ "plugins":[["expo-splash-screen",{"backgroundColor":"#0b0e13","image":"./assets/splash.png","imageWidth":220}],["expo-screen-orientation",{"initialOrientation":"LANDSCAPE"}]]}}
