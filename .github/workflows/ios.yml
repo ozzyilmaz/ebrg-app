@@ -1,6 +1,7 @@
 name: ios
 # iOS derlemesi `eas build --local` ile (EAS bulut kotasi yemez). Sertifika/profil depo sirlarindan yazilir.
-on: workflow_dispatch
+on:
+  workflow_dispatch:
 jobs:
   ios:
     runs-on: macos-26
