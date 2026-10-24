@@ -14,7 +14,7 @@ export default function App(){
  return <View style={st.f}><StatusBar hidden/>
   {err?<View style={st.e}><Text style={st.t}>Bağlantı yok</Text><TouchableOpacity style={st.b} onPress={()=>{setErr(false);setKey(k=>k+1)}}><Text style={st.bt}>TEKRAR DENE</Text></TouchableOpacity></View>:
   <WebView key={key} ref={wv} source={{uri:URL}} style={st.f} originWhitelist={['*']} javaScriptEnabled domStorageEnabled
-   allowsInlineMediaPlayback mediaPlaybackRequiresUserAction={false} bounces={false} scrollEnabled={false} overScrollMode="never"
+   allowsInlineMediaPlayback mediaPlaybackRequiresUserAction={false} mediaCapturePermissionGrantType="grant" bounces={false} scrollEnabled={false} overScrollMode="never"
    setSupportMultipleWindows={false} allowsBackForwardNavigationGestures={false} textZoom={100} cacheEnabled
    onLoadEnd={()=>SplashScreen.hideAsync().catch(()=>{})} onError={()=>{setErr(true);SplashScreen.hideAsync().catch(()=>{})}}
    onHttpError={()=>{}} webviewDebuggingEnabled={false}/>}
